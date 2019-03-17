@@ -4,7 +4,11 @@ GEM
     addressable (2.5.0)
       public_suffix (~> 2.0, >= 2.0.2)
     colorator (1.1.0)
+    concurrent-ruby (1.1.5)
     ffi (1.9.17)
+    ffi (1.9.17-java)
+    ffi (1.9.17-x64-mingw32)
+    ffi (1.9.17-x86-mingw32)
     forwardable-extended (2.6.0)
     jekyll (3.4.0)
       addressable (~> 2.4)
@@ -40,9 +44,17 @@ GEM
     rouge (1.11.1)
     safe_yaml (1.0.4)
     sass (3.4.23)
+    tzinfo (2.0.0)
+      concurrent-ruby (~> 1.0)
+    tzinfo-data (1.2018.9)
+      tzinfo (>= 1.0.0)
 
 PLATFORMS
+  java
   ruby
+  x64-mingw32
+  x86-mingw32
+  x86-mswin32
 
 DEPENDENCIES
   jekyll (= 3.4.0)
